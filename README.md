@@ -1,24 +1,9 @@
-# Dependencies
-node_modules/
+## API Endpoints
 
-# Environment variables (NEVER commit these)
-.env
-.env.local
-.env.production
-.env.development
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/api/health` | Health check. Returns `status`, `timestamp`, and `uptime` (seconds). |
 
-# Build output
-dist/
-build/
+## Project Status
 
-# Logs
-*.log
-npm-debug.log*
-
-# Editor files
-.vscode/
-.idea/
-.DS_Store
-
-# Test coverage
-coverage/
+Phases 0–4 complete: workflow understanding, project setup, Git fundamentals, and pull request workflow. Task CRUD API and UI pending (Phase 5).
